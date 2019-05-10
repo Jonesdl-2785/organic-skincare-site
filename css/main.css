@@ -7,17 +7,100 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
- 
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
 
-   html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  background: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header .brand-logo {
+  color: #262626;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  float: left;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+header .currency {
+  float: right;
+}
+
+header .currency ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header .currency ul li {
+  list-style: none;
+}
+
+header .currency ul li a {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+header .icons {
+  float: right;
+}
+
+header .icons ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header .icons ul li {
+  list-style: none;
+}
+
+header .icons li a {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  text-decoration: none;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -197,7 +280,7 @@ textarea {
   clear: both;
 }
 
- 
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -215,7 +298,7 @@ textarea {
     /* Style adjustments for high resolution devices */
 }
 
- 
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -291,5 +374,3 @@ textarea {
         page-break-after: avoid;
     }
 }
-
-
