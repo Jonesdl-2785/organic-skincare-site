@@ -1,0 +1,34 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.625;
+  -webkit-font-smoothing: antialiased;
+}
+.main-hdr-wrap {
+  position: fixed;
+  z-index: 99;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  height: 7.5625rem;
+}
+
+.main-hdr {
+  height: 7.5rem;
+}
+
+.brand-logo {
+  color: #262626;
+  height: 50px;
+  line-height: 24px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
