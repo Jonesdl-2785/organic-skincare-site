@@ -23,7 +23,11 @@ body {
 .main-hdr {
   height: 7.5rem;
 }
-
+.top-bar {
+  background: #fff;
+  
+}
+.top-bar-left {}
 .brand-logo {
   color: #262626;
   height: 50px;
