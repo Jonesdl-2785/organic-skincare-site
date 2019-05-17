@@ -1,15 +1,70 @@
 
-* {
-  box-sizing: border-box;
-}
 body {
+  position: relative;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
   font-family: 'Lato', sans-serif;
-  color: #000000;
+  color: #ffffff;
   font-size: 1rem;
   line-height: 1.625;
   -webkit-font-smoothing: antialiased;
 }
-
+/* Start shipping information section */
+.ship-info-container {
+  display: block;
+  height: 2.75rem;
+}
+.ship-info-bkgd {
+    opacity: 1;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    height: auto;
+    width: 100%;
+    z-index: 1000000;
+    position: fixed;
+    top: 0px;
+}
+.ship-info-bar {
+  text-align: center;
+    margin: 0px;
+    padding: 12px 10px;
+    left: 0px;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: #00FFBC;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-family: "Lato", sans-serif;
+}
+#ship-info-symbol
+#ship-info-amount {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+}
+#ship-info-close {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  right: .5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+}
+#ship_close {
+    color: #ffffff !important;
+    cursor: pointer;
+}
+/* End shipping information section */
+/* Start header section */
 .sticky-header {
   position: fixed;
   z-index: 99;
@@ -23,7 +78,7 @@ body {
 
 .main-hdr-wrapper {
   background: #ffffff;
-  height: 8.6rem;
+  height: 7.5625rem;
 }
 
 .main-hdr {
@@ -42,7 +97,7 @@ body {
 
 .main-hdr-search-wrapper {
   width: 25rem;
-  height: 100%;
+  /* height: 100%; */
   position: absolute;
   top: 0;
   right: 0;
@@ -90,3 +145,4 @@ li .menu-text {
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
 }
+/* End header section */
